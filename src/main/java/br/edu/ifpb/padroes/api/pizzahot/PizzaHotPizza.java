@@ -9,16 +9,15 @@ public class PizzaHotPizza {
         return topping;
     }
 
-    public void setTopping(String topping) {
-        this.topping = topping;
-    }
-
     public Float getPrice() {
         return price;
+    }
+
+    public void setTopping(String topping) {
+        this.topping = topping;
     }
 
     public void setPrice(Float price) {
         this.price = price;
     }
 }
-
